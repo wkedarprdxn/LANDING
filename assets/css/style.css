@@ -230,6 +230,7 @@ header {
 
 header .wrapper {
     display: flex;
+    flex-wrap: wrap;
     padding: 420px 0px;
     position: relative;
 }
@@ -242,6 +243,20 @@ header .wrapper .col-2:nth-child(2) {
     top: 210px;
     position: absolute;
     right: 0;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap .fig-1 {
+    width: 86%;
+}
+
+.wrap .fig-2 {
+    top: 90px;
+    left: 100px;
+    position: absolute;
 }
 
 header .wrapper .col-2 h1 {
