@@ -633,6 +633,68 @@ button {
   footer styling starts here
 =================================*/
 
+footer {
+    text-align: center;
+    padding-bottom: 100px;
+    color: rgb(153, 145, 145);
+}
+
+.footer p {
+    margin: 0px 0px 30px;
+}
+
+.foo-icons a {
+    color: rgb(0, 110, 255);
+}
+
+.foo-icons li {
+    margin-left: 20px;
+}
+
+.facebook::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f39e";
+    font-size: x-large;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+}
+
+.twitter::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f099";
+    font-size: x-large;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+}
+
+.linkedin::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f0e1";
+    font-size: x-large;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 98, 255);
+    cursor: pointer;
+}
+
+.apple::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f179";
+    font-size: x-large;
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+    color: rgb(0, 98, 255);
+}
+
 
 /*=================================
   footer styling ends here
